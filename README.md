@@ -1,0 +1,2 @@
+# local_hiveos_server
+免费的hiveos本地显卡矿工服务器
