@@ -1,0 +1,49 @@
+
+1.新增 单机24h算力 单卡温度 单卡功耗 历史记录 图表
+(已修复)2.单击左侧菜单直接跳列表界面，(已修复)
+(已修复)3.矿机列表界面添加一个算力统计，所有在线机器算力的和(已修复)
+4.挖矿模板界面新增一个自定义挖矿模板内容如下：
+挖矿软件名称：
+安装链接：
+加密算法：
+钱包与矿机模板:   //比如 %WAL%.%WORKER_NAME%
+矿池地址：
+密码：
+其他配置参数：
+#### wallet.conf
+CUSTOM_MINER="挖矿软件名称"
+CUSTOM_INSTALL_URL="安装链接"
+CUSTOM_ALGO="加密算法"
+CUSTOM_TEMPLATE="钱包与矿机模板"  //%WORKER_NAME%要给他替换成机器名
+CUSTOM_WORKER="机器名"
+CUSTOM_URL="矿池地址"
+CUSTOM_PASS="密码"
+CUSTOM_USER_CONFIG='其他配置参数'
+META='{"custom":{"coin":"eth"}}'	
+
+
+(已修复)1.无算力功耗无显示，miner_stats为空时，实时功耗和显卡温度都不显示了，这里应该有显示的。
+(已修复)2.外网ip改内核版本，machine_hello的kernel值#前面的内容(已修复)
+3.双挖无辅币算力显示，之前有做过的。(修复了)
+(已修复)4.模板列表添加算力统计 在线离线统计。在挖矿模板界面统计当前模板应用的矿机在线数量，离线数量，算力总和。(已修复)
+(已修复)5.挖矿模板修无效果，
+
+6.矿机列表的ip未更新，客户端机器ip变动后重启，hello同步过来的数据未能同步显示到服务端，其他硬件信息应该也都没同步，这里需要每次都更新一下矿机列表和详情页面
+
+(已修复)7.品牌显示错位，subvendor是品牌
+(已修复)8.有集显的机器显卡显示错位，详情测试机h-hive
+9.machine_config的CUSTOM_MINER= 的值应该是取CUSTOM_INSTALL_URL=值的文件名去后缀，现在是取的核心名字
+(已修复)10.矿机列表的异常数量不对，异常的数量是 状态在线且算力为0机器的数量(已修复)
+11.autofan现在为空，直接写入一下内容 
+#### autofan.conf
+ENABLED=
+TARGET_TEMP=
+MIN_FAN=
+MAX_FAN=
+CRITICAL_TEMP=90
+CRITICAL_TEMP_ACTION=""
+NO_AMD=
+REBOOT_ON_ERROR=
+12.在线时长也是错的//修复了
+(已修复)13.有时候切换模板无效 worker name还会变成_RIG_NAME_
+

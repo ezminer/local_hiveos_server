@@ -1,0 +1,8 @@
+﻿#### amd-oc.conf
+CORE_CLOCK="_core_clock_"
+CORE_STATE="_core_state_"
+CORE_VDDC="_core_vddc_"
+MEM_CLOCK="_mem_clock_"
+MEM_STATE="_mem_state_"
+FAN="_afan_"
+AGGRESSIVE=1

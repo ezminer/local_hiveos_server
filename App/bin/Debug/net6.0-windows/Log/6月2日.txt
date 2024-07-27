@@ -1,0 +1,124 @@
+
+[信息] 2022-06-02  11:59:22:85  -->:获取本地IP列表成功
+
+[信息] 2022-06-02  12:14:50:811  -->:获取本地IP列表成功
+
+[信息] 2022-06-02  12:17:56:613  -->:获取本地IP列表成功
+
+[信息] 2022-06-02  12:19:43:381  -->:获取本地IP列表成功
+
+[致命] 2022-06-02  12:19:48:11  -->:
+  文件:D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\App\Helpers\ObjectExtension.cs
+  方法:LogException
+  行号:45
+  描述:Input string was not in a correct format.
+  堆栈消息:
+    MyApp.App.Main  行号:0
+
+      System.Windows.Application.Run  行号:0
+
+        System.Windows.Application.RunInternal  行号:0
+
+          System.Windows.Application.RunDispatcher  行号:0
+
+            System.Windows.Threading.Dispatcher.Run  行号:0
+
+              System.Windows.Threading.Dispatcher.PushFrame  行号:0
+
+                System.Windows.Threading.Dispatcher.PushFrameImpl  行号:0
+
+                  MS.Win32.UnsafeNativeMethods.DispatchMessage  行号:0
+
+                    MS.Win32.UnsafeNativeMethods.DispatchMessage  行号:0
+
+                      MS.Win32.HwndSubclass.SubclassWndProc  行号:0
+
+                        System.Windows.Threading.Dispatcher.LegacyInvokeImpl  行号:0
+
+                          System.Windows.Threading.ExceptionWrapper.TryCatchWhen  行号:0
+
+                            System.Windows.Threading.ExceptionWrapper.CatchException  行号:0
+
+                              System.Windows.Threading.Dispatcher.CatchExceptionStatic  行号:0
+
+                                System.Windows.Threading.Dispatcher.CatchException  行号:0
+
+                                  MyApp.App.OnDispatcherUnhandledException  行号:205
+
+                                    ObjectLogExtensions.LogException  行号:45
+
+
+
+[信息] 2022-06-02  12:20:36:942  -->:获取本地IP列表成功
+
+[致命] 2022-06-02  12:22:14:808  -->:
+  文件:D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\App\Helpers\ObjectExtension.cs
+  方法:LogException
+  行号:45
+  描述:Object reference not set to an instance of an object.
+  堆栈消息:
+    MyApp.App.Main  行号:0
+
+      System.Windows.Application.Run  行号:0
+
+        System.Windows.Application.RunInternal  行号:0
+
+          System.Windows.Application.RunDispatcher  行号:0
+
+            System.Windows.Threading.Dispatcher.Run  行号:0
+
+              System.Windows.Threading.Dispatcher.PushFrame  行号:0
+
+                System.Windows.Threading.Dispatcher.PushFrameImpl  行号:0
+
+                  MS.Win32.UnsafeNativeMethods.DispatchMessage  行号:0
+
+                    MS.Win32.UnsafeNativeMethods.DispatchMessage  行号:0
+
+                      MS.Win32.HwndSubclass.SubclassWndProc  行号:0
+
+                        System.Windows.Threading.Dispatcher.LegacyInvokeImpl  行号:0
+
+                          System.Windows.Threading.ExceptionWrapper.TryCatchWhen  行号:0
+
+                            System.Windows.Threading.ExceptionWrapper.CatchException  行号:0
+
+                              System.Windows.Threading.Dispatcher.CatchExceptionStatic  行号:0
+
+                                System.Windows.Threading.Dispatcher.CatchException  行号:0
+
+                                  MyApp.App.OnDispatcherUnhandledException  行号:205
+
+                                    ObjectLogExtensions.LogException  行号:45
+
+
+
+[信息] 2022-06-02  12:23:03:537  -->:获取本地IP列表成功
+
+[信息] 2022-06-02  12:32:10:835  -->:获取本地IP列表成功
+
+[信息] 2022-06-02  12:33:19:233  -->:获取本地IP列表成功
+
+[信息] 2022-06-02  12:41:03:995  -->:获取本地IP列表成功
+
+[信息] 2022-06-02  12:45:55:7  -->:获取本地IP列表成功
+
+[信息] 2022-06-02  12:58:51:982  -->:获取本地IP列表成功
+
+[信息] 2022-06-02  13:08:24:758  -->:获取本地IP列表成功
+
+[信息] 2022-06-02  13:10:22:523  -->:获取本地IP列表成功
+
+[信息] 2022-06-02  13:11:42:804  -->:获取本地IP列表成功
+
+[信息] 2022-06-02  13:24:45:646  -->:获取本地IP列表成功
+
+[信息] 2022-06-02  13:26:40:159  -->:获取本地IP列表成功
+
+[信息] 2022-06-02  13:28:23:474  -->:获取本地IP列表成功
+
+[信息] 2022-06-02  13:30:43:519  -->:获取本地IP列表成功
+
+[信息] 2022-06-02  13:33:28:259  -->:获取本地IP列表成功
+
+[信息] 2022-06-02  13:35:54:271  -->:获取本地IP列表成功

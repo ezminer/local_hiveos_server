@@ -1,0 +1,10 @@
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\WPFTemple.Core\bin\Test\netstandard2.1\APP_Window.Core.deps.json
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\WPFTemple.Core\bin\Test\netstandard2.1\APP_Window.Core.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\WPFTemple.Core\bin\Test\netstandard2.1\APP_Window.Core.pdb
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\WPFTemple.Core\obj\Test\netstandard2.1\APP_Window.Core.csproj.AssemblyReference.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\WPFTemple.Core\obj\Test\netstandard2.1\APP_Window.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\WPFTemple.Core\obj\Test\netstandard2.1\APP_Window.Core.AssemblyInfoInputs.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\WPFTemple.Core\obj\Test\netstandard2.1\APP_Window.Core.AssemblyInfo.cs
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\WPFTemple.Core\obj\Test\netstandard2.1\APP_Window.Core.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\WPFTemple.Core\obj\Test\netstandard2.1\APP_Window.Core.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\WPFTemple.Core\obj\Test\netstandard2.1\APP_Window.Core.pdb

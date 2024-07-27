@@ -1,0 +1,55 @@
+[
+  {
+    "busid": "00:02.0",
+    "name": "HD Graphics 610",
+    "brand": "cpu",
+    "subvendor": "Intel"
+  },
+  {
+    "busid": "01:00.0",
+    "name": "GeForce GTX 1660 SUPER",
+    "brand": "nvidia",
+    "subvendor": "Gigabyte",
+    "mem": "5944 MB",
+    "vbios": "90.16.48.00.7F",
+    "mem_type": "Samsung GDDR6",
+    "uuid": "GPU-991f04bf-7bfb-6674-2214-208e15c29456",
+    "plim_min": "70 W",
+    "plim_def": "125 W",
+    "plim_max": "150 W",
+    "fan_cnt": "1"
+  },
+  {
+    "busid": "03:00.0",
+    "name": "GeForce RTX 2060",
+    "brand": "nvidia",
+    "subvendor": "ASUS",
+    "mem": "5934 MB",
+    "vbios": "90.04.63.00.E8",
+    "mem_type": "Micron GDDR6",
+    "uuid": "GPU-dd226f12-851a-0b49-d361-3d885c1613d3",
+    "plim_min": "125 W",
+    "plim_def": "170 W",
+    "plim_max": "204 W",
+    "fan_cnt": "2"
+  },
+  {
+    "busid": "06:00.0",
+    "name": "Radeon RX 6600",
+    "brand": "amd",
+    "subvendor": "MSI",
+    "vbios": "113-V502ARMR-0OC",
+    "mem": "8176 MB",
+    "mem_type": "Hynix GDDR6"
+  },
+  {
+    "busid": "07:00.0",
+    "name": "Radeon RX 470",
+    "brand": "amd",
+    "subvendor": "Sapphire",
+    "vbios": "113-1E3470U.S4X",
+    "mem": "8192 MB",
+    "mem_type": "Samsung K4G80325FB",
+    "uuid": "M50CG0170805"
+  }
+]

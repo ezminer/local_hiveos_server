@@ -1,0 +1,155 @@
+﻿<controls:MetroWindow
+    x:Class="MyApp.Views.ShellWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:properties="clr-namespace:MyApp.Properties"
+    xmlns:templateSelectors="clr-namespace:MyApp.TemplateSelectors" xmlns:controls1="clr-namespace:MyApp.Controls" xmlns:viewmodels="clr-namespace:MyApp.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:ShellViewModel}"
+    Style="{StaticResource CustomMetroWindow}"
+    mc:Ignorable="d"   KeyboardNavigation.TabNavigation="None"
+   xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+    MinWidth="500"
+    MinHeight="350"
+    Title="{x:Static properties:Resources.AppDisplayName}">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadedCommand}" />
+        </i:EventTrigger>
+        <i:EventTrigger EventName="Unloaded">
+            <i:InvokeCommandAction Command="{Binding UnloadedCommand}" />
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <!--#region 窗体标题内容 -->
+    <controls:MetroWindow.LeftWindowCommands>
+        <controls:WindowCommands>
+            <Button Visibility="Collapsed"
+                Width="{Binding ElementName=hamburgerMenu, Path=CompactPaneLength}"
+                AutomationProperties.Name="{x:Static properties:Resources.ShellGoBackButton}"
+                ToolTip="{x:Static properties:Resources.ShellGoBackButton}"
+                Command="{Binding GoBackCommand}">
+                <TextBlock
+                    Text="&#xE72B;"
+                    FontSize="14"
+                    FontFamily="Segoe MDL2 Assets"
+                    AutomationProperties.Name="{x:Static properties:Resources.ShellGoBackButton}" />
+            </Button>
+        </controls:WindowCommands>
+    </controls:MetroWindow.LeftWindowCommands>
+    <!--#endregion-->
+    <controls:MetroWindow.RightWindowCommands >
+        <controls:WindowCommands   >
+            <CheckBox Content="置顶" Focusable="False"
+                      Unchecked="取消置顶"
+                      Checked="启用置顶"/>
+        </controls:WindowCommands>
+    </controls:MetroWindow.RightWindowCommands>
+    
+    <controls:MetroWindow.Resources >
+        <templateSelectors:MenuItemTemplateSelector
+            
+            x:Key="MenuItemTemplateSelector">
+            <templateSelectors:MenuItemTemplateSelector.GlyphDataTemplate>
+                <DataTemplate DataType="{x:Type controls:HamburgerMenuGlyphItem}">
+                    <Grid Height="48">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="48" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock
+                            Grid.Column="0"
+                            FontSize="16"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontFamily="Segoe MDL2 Assets"
+                            Text="{Binding Glyph}"
+                            ToolTip="{Binding Label}" />
+                        <TextBlock
+                            Grid.Column="1"
+                            VerticalAlignment="Center"
+                            FontSize="16"
+                            Text="{Binding Label}" />
+                    </Grid>
+                </DataTemplate>
+            </templateSelectors:MenuItemTemplateSelector.GlyphDataTemplate>
+            <templateSelectors:MenuItemTemplateSelector.ImageDataTemplate >
+                <DataTemplate DataType="{x:Type controls:HamburgerMenuImageItem}">
+                    <Grid Height="48"   >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="48" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Ellipse
+                            Grid.Column="0"
+                            Width="24"
+                            Height="24"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            ToolTip="{Binding Label}">
+                            <Ellipse.Fill>
+                                <ImageBrush ImageSource="{Binding Thumbnail}" />
+                            </Ellipse.Fill>
+                        </Ellipse>
+                        <TextBlock
+                            Grid.Column="1"
+                            VerticalAlignment="Center"
+                            FontSize="16"
+                            Text="{Binding Label}" />
+                    </Grid>
+                </DataTemplate>
+            </templateSelectors:MenuItemTemplateSelector.ImageDataTemplate>
+        </templateSelectors:MenuItemTemplateSelector>
+       
+    </controls:MetroWindow.Resources>
+    <controls:MetroWindow.Content>
+        
+        <Grid>
+
+ 
+            <controls:HamburgerMenu 
+            x:Name="hamburgerMenu"  Focusable="False"
+            HamburgerButtonName="{x:Static properties:Resources.ShellHamburgerButtonName}"
+            IsPaneOpen="True"
+             KeyboardNavigation.TabNavigation="None"
+            FontFamily="{StaticResource icon}"
+            
+            DisplayMode="CompactInline"
+            ItemsSource="{Binding MenuItems}"
+            SelectedItem="{Binding SelectedMenuItem}"
+            ItemCommand="{Binding MenuItemInvokedCommand}"
+            OptionsItemsSource="{Binding OptionMenuItems}"
+            SelectedOptionsItem="{Binding SelectedOptionsMenuItem}"
+            OptionsItemCommand="{Binding OptionsMenuItemInvokedCommand}"
+            OptionsItemTemplateSelector="{StaticResource MenuItemTemplateSelector}"
+            ItemTemplateSelector="{StaticResource MenuItemTemplateSelector}">
+                <controls:HamburgerMenu.Content>
+                    <Grid>
+                        <Frame 
+                    x:Name="shellFrame"
+                    Grid.Row="1"
+                    NavigationUIVisibility="Hidden"
+                    Focusable="False" />
+                        <Border Name="Loading" Visibility="Collapsed" 
+                                Panel.ZIndex="999999" Background="#1fFFFFFF" >
+                            <controls:ProgressRing Foreground="{DynamicResource AccentColorBrush}" Width="100"
+                 Opacity="1" IsActive="True" Focusable="False" />
+                        </Border>
+                    </Grid>
+                    
+                </controls:HamburgerMenu.Content >
+                <!--<controls:HamburgerMenu.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem" BasedOn="{StaticResource MahApps.Styles.ListBoxItem.HamburgerMenuHeader}">
+                        <Setter Property="FontFamily" Value="{StaticResource icon}"/>
+                    </Style>
+                </controls:HamburgerMenu.ItemContainerStyle>-->
+            </controls:HamburgerMenu>
+
+            <ItemsControl Name="_Message" Width="300" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+              
+
+            </ItemsControl>
+        </Grid>
+    </controls:MetroWindow.Content>
+</controls:MetroWindow>

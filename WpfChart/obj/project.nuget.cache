@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "MpFds4bEbfEpeoDPMSOcuiOzLOTDuPrneEJeASsw4JL9segfCrBb8I1uWh0O8jW7q5cItVA5SCHSmTQF+6QV0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC001\\Desktop\\WebFirst_2022年6月5_修复版\\WpfChart\\WpfChart.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC001\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+    "C:\\Users\\PC001\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0\\microsoft.win32.systemevents.4.6.0.nupkg.sha512",
+    "C:\\Users\\PC001\\.nuget\\packages\\scottplot\\4.1.45\\scottplot.4.1.45.nupkg.sha512",
+    "C:\\Users\\PC001\\.nuget\\packages\\scottplot.wpf\\4.1.45\\scottplot.wpf.4.1.45.nupkg.sha512",
+    "C:\\Users\\PC001\\.nuget\\packages\\system.drawing.common\\4.6.1\\system.drawing.common.4.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+D:\BaiduNetdiskWorkspace\Project\C#project\WPF模板\WPFTemple.Core\bin\Debug\netstandard2.0\WPFTemple.Core.deps.json
+D:\BaiduNetdiskWorkspace\Project\C#project\WPF模板\WPFTemple.Core\bin\Debug\netstandard2.0\WPFTemple.Core.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\WPF模板\WPFTemple.Core\bin\Debug\netstandard2.0\WPFTemple.Core.pdb
+D:\BaiduNetdiskWorkspace\Project\C#project\WPF模板\WPFTemple.Core\obj\Debug\netstandard2.0\WPFTemple.Core.csproj.AssemblyReference.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\WPF模板\WPFTemple.Core\obj\Debug\netstandard2.0\WPFTemple.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiduNetdiskWorkspace\Project\C#project\WPF模板\WPFTemple.Core\obj\Debug\netstandard2.0\WPFTemple.Core.AssemblyInfoInputs.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\WPF模板\WPFTemple.Core\obj\Debug\netstandard2.0\WPFTemple.Core.AssemblyInfo.cs
+D:\BaiduNetdiskWorkspace\Project\C#project\WPF模板\WPFTemple.Core\obj\Debug\netstandard2.0\WPFTemple.Core.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\WPF模板\WPFTemple.Core\obj\Debug\netstandard2.0\WPFTemple.Core.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\WPF模板\WPFTemple.Core\obj\Debug\netstandard2.0\WPFTemple.Core.pdb

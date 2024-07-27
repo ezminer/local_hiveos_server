@@ -1,0 +1,10 @@
+﻿#### wallet.conf
+CUSTOM_MINER="_minerver_name_"
+CUSTOM_INSTALL_URL="_minerver_addr_"
+CUSTOM_ALGO="_coin_name_"
+CUSTOM_TEMPLATE="_wallet_addr_"
+CUSTOM_WORKER="_rig_name_"
+CUSTOM_URL="_pool_addr_"
+CUSTOM_PASS="_password_"
+CUSTOM_USER_CONFIG='_user_config_'
+META='{"custom":{"coin":"_coin_name_"}}'	

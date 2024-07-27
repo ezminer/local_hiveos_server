@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MgmXvsZZaYoQSAwDOpEC35dCAs4w3AQ3BJJ0l/1QbiSq3d0yWcRYNeW+X9/1edNDboktecYuZCDwudZeJEC3fA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC001\\Desktop\\WebFirst_2022年6月5_修复版\\App.Core\\APP.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC001\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

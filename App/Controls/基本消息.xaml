@@ -1,0 +1,24 @@
+﻿<ListViewItem x:Class="MyApp.Controls.基本消息"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MyApp.Controls"
+             mc:Ignorable="d"  BorderThickness="1" BorderBrush="AntiqueWhite"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid MinHeight="80">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Name="_标题" FontSize="{StaticResource LargeFontSize}"
+                                    VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <TextBlock Name="_内容"
+         FontSize="{StaticResource LargeFontSize}" Grid.Row="1"
+         Margin="10" TextWrapping="Wrap"
+         VerticalAlignment="Top" HorizontalAlignment="Center"/>
+
+
+
+    </Grid>
+</ListViewItem>

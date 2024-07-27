@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Model" GeneratedClassName="Config">
+  <Profiles />
+  <Settings>
+    <Setting Name="SERVERIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://你的ip</Value>
+    </Setting>
+    <Setting Name="局域网加速" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WkTemlpate" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="模板下载地址" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://cmd.foxikg.com/server.json</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

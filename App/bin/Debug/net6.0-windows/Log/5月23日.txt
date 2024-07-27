@@ -1,0 +1,374 @@
+
+[致命] 2022-05-23  20:57:05:465  -->:
+  文件:
+  方法:LogException
+  行号:0
+  描述:Input string was not in a correct format.
+  堆栈消息:
+    MyApp.App.Main  行号:0
+
+      System.Windows.Application.Run  行号:0
+
+        System.Windows.Application.RunInternal  行号:0
+
+          System.Windows.Application.RunDispatcher  行号:0
+
+            System.Windows.Threading.Dispatcher.Run  行号:0
+
+              System.Windows.Threading.Dispatcher.PushFrame  行号:0
+
+                System.Windows.Threading.Dispatcher.PushFrameImpl  行号:0
+
+                  MS.Win32.UnsafeNativeMethods.DispatchMessage  行号:0
+
+                    MS.Win32.UnsafeNativeMethods.DispatchMessage  行号:0
+
+                      MS.Win32.HwndSubclass.SubclassWndProc  行号:0
+
+                        System.Windows.Threading.Dispatcher.LegacyInvokeImpl  行号:0
+
+                          System.Windows.Threading.ExceptionWrapper.TryCatchWhen  行号:0
+
+                            System.Windows.Threading.ExceptionWrapper.InternalRealCall  行号:0
+
+                              MS.Win32.HwndSubclass.DispatcherCallbackOperation  行号:0
+
+                                MS.Win32.HwndWrapper.WndProc  行号:0
+
+                                  System.Windows.Interop.HwndSource.InputFilterMessage  行号:0
+
+                                    System.Windows.Interop.HwndMouseInputProvider.FilterMessage  行号:0
+
+                                      System.Windows.Interop.HwndMouseInputProvider.ReportInput  行号:0
+
+                                        System.Windows.Input.InputProviderSite.ReportInput  行号:0
+
+                                          System.Windows.Input.InputManager.ProcessStagingArea  行号:0
+
+                                            System.Windows.UIElement.RaiseTrustedEvent  行号:0
+
+                                              System.Windows.UIElement.RaiseEventImpl  行号:0
+
+                                                System.Windows.EventRoute.InvokeHandlersImpl  行号:0
+
+                                                  System.Windows.RoutedEventArgs.InvokeHandler  行号:0
+
+                                                    System.Windows.UIElement.ReRaiseEventAs  行号:0
+
+                                                      System.Windows.EventRoute.InvokeHandlersImpl  行号:0
+
+                                                        System.Windows.RoutedEventArgs.InvokeHandler  行号:0
+
+                                                          System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp  行号:0
+
+                                                            System.Windows.Controls.Button.OnClick  行号:0
+
+                                                              System.Windows.Controls.Primitives.ButtonBase.OnClick  行号:0
+
+                                                                MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource  行号:0
+
+                                                                  Microsoft.Toolkit.Mvvm.Input.RelayCommand.Execute  行号:0
+
+                                                                    MyApp.ViewModels.矿机详细信息ViewModel.导航到列表页命令动作  行号:0
+
+                                                                      MyApp.Services.NavigationService.NavigateTo  行号:0
+
+                                                                        MyApp.Services.PageService.GetPage  行号:0
+
+                                                                          Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService  行号:0
+
+                                                                            .ResolveService  行号:0
+
+                                                                              MyApp.Views.矿机列表页..ctor  行号:0
+
+                                                                                MyApp.Views.矿机列表页.InitializeComponent  行号:0
+
+                                                                                  System.Windows.Application.LoadComponent  行号:0
+
+                                                                                    System.Windows.Markup.XamlReader.LoadBaml  行号:0
+
+                                                                                      System.Windows.Markup.WpfXamlLoader.LoadBaml  行号:0
+
+                                                                                        System.Windows.Markup.WpfXamlLoader.Load  行号:0
+
+                                                                                          System.Windows.Markup.WpfXamlLoader.TransformNodes  行号:0
+
+                                                                                            System.Xaml.XamlObjectWriter.WriteEndObject  行号:0
+
+                                                                                              System.Xaml.XamlObjectWriter.Logic_DoAssignmentToParentProperty  行号:0
+
+                                                                                                System.Xaml.XamlObjectWriter.Logic_ApplyPropertyValue  行号:0
+
+                                                                                                  MS.Internal.Xaml.Runtime.PartialTrustTolerantRuntime.SetValue  行号:0
+
+                                                                                                    MS.Internal.Xaml.Runtime.ClrObjectRuntime.SetValue  行号:0
+
+                                                                                                      System.Windows.DependencyObject.SetValue  行号:0
+
+                                                                                                        System.Windows.DependencyObject.SetValueCommon  行号:0
+
+                                                                                                          System.Windows.Data.BindingExpressionBase.Attach  行号:0
+
+                                                                                                            System.Windows.Data.BindingExpression.AttachOverride  行号:0
+
+                                                                                                              System.Windows.Data.BindingExpression.AttachToContext  行号:0
+
+                                                                                                                System.Windows.Data.BindingExpression.Activate  行号:0
+
+                                                                                                                  System.Windows.Data.BindingExpression.TransferValue  行号:0
+
+                                                                                                                    MyApp.Converters.KJListConvert.算力转换.Convert  行号:0
+
+                                                                                                                      ObjectLogExtensions.LogException  行号:0
+
+
+
+[信息] 2022-05-23  20:57:14:168  -->:添加命令:hello 成功
+
+[致命] 2022-05-23  20:57:26:584  -->:
+  文件:
+  方法:LogException
+  行号:0
+  描述:Input string was not in a correct format.
+  堆栈消息:
+    MyApp.App.Main  行号:0
+
+      System.Windows.Application.Run  行号:0
+
+        System.Windows.Application.RunInternal  行号:0
+
+          System.Windows.Application.RunDispatcher  行号:0
+
+            System.Windows.Threading.Dispatcher.Run  行号:0
+
+              System.Windows.Threading.Dispatcher.PushFrame  行号:0
+
+                System.Windows.Threading.Dispatcher.PushFrameImpl  行号:0
+
+                  MS.Win32.UnsafeNativeMethods.DispatchMessage  行号:0
+
+                    MS.Win32.UnsafeNativeMethods.DispatchMessage  行号:0
+
+                      MS.Win32.HwndSubclass.SubclassWndProc  行号:0
+
+                        System.Windows.Threading.Dispatcher.LegacyInvokeImpl  行号:0
+
+                          System.Windows.Threading.ExceptionWrapper.TryCatchWhen  行号:0
+
+                            System.Windows.Threading.ExceptionWrapper.InternalRealCall  行号:0
+
+                              MS.Win32.HwndSubclass.DispatcherCallbackOperation  行号:0
+
+                                MS.Win32.HwndWrapper.WndProc  行号:0
+
+                                  System.Windows.Interop.HwndSource.InputFilterMessage  行号:0
+
+                                    System.Windows.Interop.HwndMouseInputProvider.FilterMessage  行号:0
+
+                                      System.Windows.Interop.HwndMouseInputProvider.ReportInput  行号:0
+
+                                        System.Windows.Input.InputProviderSite.ReportInput  行号:0
+
+                                          System.Windows.Input.InputManager.ProcessStagingArea  行号:0
+
+                                            System.Windows.UIElement.RaiseTrustedEvent  行号:0
+
+                                              System.Windows.UIElement.RaiseEventImpl  行号:0
+
+                                                System.Windows.EventRoute.InvokeHandlersImpl  行号:0
+
+                                                  System.Windows.RoutedEventArgs.InvokeHandler  行号:0
+
+                                                    System.Windows.UIElement.ReRaiseEventAs  行号:0
+
+                                                      System.Windows.EventRoute.InvokeHandlersImpl  行号:0
+
+                                                        System.Windows.RoutedEventArgs.InvokeHandler  行号:0
+
+                                                          System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp  行号:0
+
+                                                            System.Windows.Controls.Button.OnClick  行号:0
+
+                                                              System.Windows.Controls.Primitives.ButtonBase.OnClick  行号:0
+
+                                                                MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource  行号:0
+
+                                                                  Microsoft.Toolkit.Mvvm.Input.RelayCommand.Execute  行号:0
+
+                                                                    MyApp.ViewModels.矿机详细信息ViewModel.导航到列表页命令动作  行号:0
+
+                                                                      MyApp.Services.NavigationService.NavigateTo  行号:0
+
+                                                                        MyApp.Services.PageService.GetPage  行号:0
+
+                                                                          Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService  行号:0
+
+                                                                            .ResolveService  行号:0
+
+                                                                              MyApp.Views.矿机列表页..ctor  行号:0
+
+                                                                                MyApp.Views.矿机列表页.InitializeComponent  行号:0
+
+                                                                                  System.Windows.Application.LoadComponent  行号:0
+
+                                                                                    System.Windows.Markup.XamlReader.LoadBaml  行号:0
+
+                                                                                      System.Windows.Markup.WpfXamlLoader.LoadBaml  行号:0
+
+                                                                                        System.Windows.Markup.WpfXamlLoader.Load  行号:0
+
+                                                                                          System.Windows.Markup.WpfXamlLoader.TransformNodes  行号:0
+
+                                                                                            System.Xaml.XamlObjectWriter.WriteEndObject  行号:0
+
+                                                                                              System.Xaml.XamlObjectWriter.Logic_DoAssignmentToParentProperty  行号:0
+
+                                                                                                System.Xaml.XamlObjectWriter.Logic_ApplyPropertyValue  行号:0
+
+                                                                                                  MS.Internal.Xaml.Runtime.PartialTrustTolerantRuntime.SetValue  行号:0
+
+                                                                                                    MS.Internal.Xaml.Runtime.ClrObjectRuntime.SetValue  行号:0
+
+                                                                                                      System.Windows.DependencyObject.SetValue  行号:0
+
+                                                                                                        System.Windows.DependencyObject.SetValueCommon  行号:0
+
+                                                                                                          System.Windows.Data.BindingExpressionBase.Attach  行号:0
+
+                                                                                                            System.Windows.Data.BindingExpression.AttachOverride  行号:0
+
+                                                                                                              System.Windows.Data.BindingExpression.AttachToContext  行号:0
+
+                                                                                                                System.Windows.Data.BindingExpression.Activate  行号:0
+
+                                                                                                                  System.Windows.Data.BindingExpression.TransferValue  行号:0
+
+                                                                                                                    MyApp.Converters.KJListConvert.算力转换.Convert  行号:0
+
+                                                                                                                      ObjectLogExtensions.LogException  行号:0
+
+
+
+[致命] 2022-05-23  20:59:22:592  -->:
+  文件:
+  方法:LogException
+  行号:0
+  描述:Input string was not in a correct format.
+  堆栈消息:
+    MyApp.App.Main  行号:0
+
+      System.Windows.Application.Run  行号:0
+
+        System.Windows.Application.RunInternal  行号:0
+
+          System.Windows.Application.RunDispatcher  行号:0
+
+            System.Windows.Threading.Dispatcher.Run  行号:0
+
+              System.Windows.Threading.Dispatcher.PushFrame  行号:0
+
+                System.Windows.Threading.Dispatcher.PushFrameImpl  行号:0
+
+                  MS.Win32.UnsafeNativeMethods.DispatchMessage  行号:0
+
+                    MS.Win32.UnsafeNativeMethods.DispatchMessage  行号:0
+
+                      MS.Win32.HwndSubclass.SubclassWndProc  行号:0
+
+                        System.Windows.Threading.Dispatcher.LegacyInvokeImpl  行号:0
+
+                          System.Windows.Threading.ExceptionWrapper.TryCatchWhen  行号:0
+
+                            System.Windows.Threading.ExceptionWrapper.InternalRealCall  行号:0
+
+                              MS.Win32.HwndSubclass.DispatcherCallbackOperation  行号:0
+
+                                MS.Win32.HwndWrapper.WndProc  行号:0
+
+                                  System.Windows.Interop.HwndSource.InputFilterMessage  行号:0
+
+                                    System.Windows.Interop.HwndMouseInputProvider.FilterMessage  行号:0
+
+                                      System.Windows.Interop.HwndMouseInputProvider.ReportInput  行号:0
+
+                                        System.Windows.Input.InputProviderSite.ReportInput  行号:0
+
+                                          System.Windows.Input.InputManager.ProcessStagingArea  行号:0
+
+                                            System.Windows.UIElement.RaiseTrustedEvent  行号:0
+
+                                              System.Windows.UIElement.RaiseEventImpl  行号:0
+
+                                                System.Windows.EventRoute.InvokeHandlersImpl  行号:0
+
+                                                  System.Windows.RoutedEventArgs.InvokeHandler  行号:0
+
+                                                    System.Windows.UIElement.ReRaiseEventAs  行号:0
+
+                                                      System.Windows.EventRoute.InvokeHandlersImpl  行号:0
+
+                                                        System.Windows.RoutedEventArgs.InvokeHandler  行号:0
+
+                                                          System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp  行号:0
+
+                                                            System.Windows.Controls.Button.OnClick  行号:0
+
+                                                              System.Windows.Controls.Primitives.ButtonBase.OnClick  行号:0
+
+                                                                MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource  行号:0
+
+                                                                  Microsoft.Toolkit.Mvvm.Input.RelayCommand.Execute  行号:0
+
+                                                                    MyApp.ViewModels.矿机详细信息ViewModel.导航到列表页命令动作  行号:0
+
+                                                                      MyApp.Services.NavigationService.NavigateTo  行号:0
+
+                                                                        MyApp.Services.PageService.GetPage  行号:0
+
+                                                                          Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService  行号:0
+
+                                                                            .ResolveService  行号:0
+
+                                                                              MyApp.Views.矿机列表页..ctor  行号:0
+
+                                                                                MyApp.Views.矿机列表页.InitializeComponent  行号:0
+
+                                                                                  System.Windows.Application.LoadComponent  行号:0
+
+                                                                                    System.Windows.Markup.XamlReader.LoadBaml  行号:0
+
+                                                                                      System.Windows.Markup.WpfXamlLoader.LoadBaml  行号:0
+
+                                                                                        System.Windows.Markup.WpfXamlLoader.Load  行号:0
+
+                                                                                          System.Windows.Markup.WpfXamlLoader.TransformNodes  行号:0
+
+                                                                                            System.Xaml.XamlObjectWriter.WriteEndObject  行号:0
+
+                                                                                              System.Xaml.XamlObjectWriter.Logic_DoAssignmentToParentProperty  行号:0
+
+                                                                                                System.Xaml.XamlObjectWriter.Logic_ApplyPropertyValue  行号:0
+
+                                                                                                  MS.Internal.Xaml.Runtime.PartialTrustTolerantRuntime.SetValue  行号:0
+
+                                                                                                    MS.Internal.Xaml.Runtime.ClrObjectRuntime.SetValue  行号:0
+
+                                                                                                      System.Windows.DependencyObject.SetValue  行号:0
+
+                                                                                                        System.Windows.DependencyObject.SetValueCommon  行号:0
+
+                                                                                                          System.Windows.Data.BindingExpressionBase.Attach  行号:0
+
+                                                                                                            System.Windows.Data.BindingExpression.AttachOverride  行号:0
+
+                                                                                                              System.Windows.Data.BindingExpression.AttachToContext  行号:0
+
+                                                                                                                System.Windows.Data.BindingExpression.Activate  行号:0
+
+                                                                                                                  System.Windows.Data.BindingExpression.TransferValue  行号:0
+
+                                                                                                                    MyApp.Converters.KJListConvert.算力转换.Convert  行号:0
+
+                                                                                                                      ObjectLogExtensions.LogException  行号:0
+
+

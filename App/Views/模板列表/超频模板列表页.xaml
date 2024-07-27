@@ -1,0 +1,77 @@
+﻿<Page
+    x:Class="MyApp.Views.超频模板列表页"
+    Style="{DynamicResource MahApps.Styles.Page}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+    xmlns:properties="clr-namespace:MyApp.Properties" xmlns:viewmodels="clr-namespace:MyApp.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:超频模板列表页ViewModel}"
+    mc:Ignorable="d"
+    d:DesignHeight="450" d:DesignWidth="800">
+    <Page.Resources>
+        <ContextMenu x:Key="itemContextMenu" Width="150"
+                                    DataContext="{Binding RelativeSource={RelativeSource AncestorType=Page,Mode=FindAncestor} ,Path=DataContext}"
+                                    >
+           
+            <MenuItem  Header="新增模板" Command="{Binding 添加命令}"/>
+            <Separator/>
+            <MenuItem  Header="保存修改" Command="{Binding 修改命令}"/>
+            <MenuItem  Header="删除模板" Command="{Binding 删除命令}"/>
+
+
+          
+           
+            <!--<MenuItem  CommandParameter="单选" Header="自定义" Command="{Binding 删除命令}"/>-->
+        </ContextMenu>
+    </Page.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock
+            Style="{StaticResource PageTitleStyle}"
+            Margin="{StaticResource MediumLeftMargin}"
+            Text="{x:Static properties:Resources.超频模板列表页_标题}" />
+        <Grid
+            Grid.Row="1"
+            Margin="{StaticResource MediumLeftRightMargin}"
+            Background="{DynamicResource MahApps.Brushes.Gray10}">
+            <StackPanel>
+                <StackPanel Height="40" Orientation="Horizontal">
+                    <Button  Content="新增" Margin="2,5" Width="50" Height="20" 
+                             Command="{Binding 添加命令}"/>
+                    <Button Content="删除" Margin="2,5" Width="50" Height="20" 
+                             Command="{Binding 删除命令}"/>
+                </StackPanel>
+               
+            </StackPanel>
+            <DataGrid  Margin="0,40"  AutoGenerateColumns="False" SelectedCellsChanged="SelectedCellsChanged"
+                       CanUserAddRows="False" CanUserDeleteRows="False" 
+                ItemsSource="{Binding List}" SelectionMode="Single" SelectedItem="{Binding  SelectedItem}" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding OcName}" Header="超频模板名称"/>
+                    <DataGridTextColumn Binding="{Binding Clock}" Header="N核心频率"/>
+                    <DataGridTextColumn Binding="{Binding Mem}" Header="N显存频率"/>
+                    <DataGridTextColumn Binding="{Binding Plimit}" Header="N功耗限制"/>
+                    <DataGridTextColumn Binding="{Binding Nfan}" Header="N风扇转速"/>
+
+                    <DataGridTextColumn Binding="{Binding CoreClock}" Header="A核心频率"/>
+                    <DataGridTextColumn Binding="{Binding CoreState}" Header="A核心状态"/>
+                    <DataGridTextColumn Binding="{Binding CoreVddc}" Header="A核心电压"/>
+                    <DataGridTextColumn Binding="{Binding MemClock}" Header="A显存频率"/>
+           
+                    <DataGridTextColumn Binding="{Binding Afan}" Header="A风扇转速"/>
+                </DataGrid.Columns>
+                <DataGrid.RowStyle>
+                    <Style TargetType="DataGridRow" BasedOn="{StaticResource MahApps.Styles.DataGridRow}">
+                        <Setter Property="ContextMenu" Value="{StaticResource itemContextMenu}" />
+
+
+                    </Style>
+                </DataGrid.RowStyle>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</Page>

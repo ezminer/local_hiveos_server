@@ -1,0 +1,389 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\WPFTemple\\APP_Window.csproj": {}
+  },
+  "projects": {
+    "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\Ling\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ling\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\Services\\WebFirst.Services.csproj": {
+                "projectPath": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\Services\\WebFirst.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\MyWebApplication\\MyWebApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\MyWebApplication\\MyWebApplication.csproj",
+        "projectName": "MyWebApplication",
+        "projectPath": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\MyWebApplication\\MyWebApplication.csproj",
+        "packagesPath": "C:\\Users\\Ling\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\MyWebApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ling\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\Model\\Model.csproj": {
+                "projectPath": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting.WindowsServices": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.Extensions.Hosting.WindowsServices": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\Services\\WebFirst.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\Services\\WebFirst.Services.csproj",
+        "projectName": "WebFirst.Services",
+        "projectPath": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\Services\\WebFirst.Services.csproj",
+        "packagesPath": "C:\\Users\\Ling\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ling\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\WPFTemple.Core\\APP_Window.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\WPFTemple.Core\\APP_Window.Core.csproj",
+        "projectName": "APP_Window.Core",
+        "projectPath": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\WPFTemple.Core\\APP_Window.Core.csproj",
+        "packagesPath": "C:\\Users\\Ling\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\WPFTemple.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ling\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\WPFTemple\\APP_Window.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\WPFTemple\\APP_Window.csproj",
+        "projectName": "APP_Window",
+        "projectPath": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\WPFTemple\\APP_Window.csproj",
+        "packagesPath": "C:\\Users\\Ling\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\WPFTemple\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ling\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\Model\\Model.csproj": {
+                "projectPath": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\Model\\Model.csproj"
+              },
+              "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\MyWebApplication\\MyWebApplication.csproj": {
+                "projectPath": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\MyWebApplication\\MyWebApplication.csproj"
+              },
+              "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\Services\\WebFirst.Services.csproj": {
+                "projectPath": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\Services\\WebFirst.Services.csproj"
+              },
+              "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\WPFTemple.Core\\APP_Window.Core.csproj": {
+                "projectPath": "D:\\BaiduNetdiskWorkspace\\Project\\C#project\\矿机系统\\WebFirst\\WPFTemple.Core\\APP_Window.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[2.4.6, )"
+            },
+            "MahApps.Metro.IconPacks": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Toolkit.Mvvm": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.Toolkit.Uwp.Notifications": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "SqlSugar.IOC": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.5.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="MyApp.Views.新增钱包模板页"
+    Style="{DynamicResource MahApps.Styles.Page}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+    xmlns:properties="clr-namespace:MyApp.Properties"
+    mc:Ignorable="d"
+    d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock
+            Style="{StaticResource PageTitleStyle}"
+            Margin="{StaticResource MediumLeftMargin}"
+            Text="{x:Static properties:Resources.新增钱包模板页_标题}" />
+        <Grid
+            Grid.Row="1"
+            Margin="{StaticResource MediumLeftRightMargin}"
+            Background="{DynamicResource MahApps.Brushes.Gray10}">
+            <StackPanel   Grid.Row="1" Margin="40" >
+
+                <TextBlock  FontSize="{StaticResource LargeFontSize}" Text="钱包名称"/>
+                <TextBox   FontSize="{StaticResource LargeFontSize}" Text="{Binding Model.钱包名称}" mah:TextBoxHelper.Watermark="请输入钱包名称"/>
+
+                <TextBlock FontSize="{StaticResource LargeFontSize}" Text="币种"/>
+                <TextBox   FontSize="{StaticResource LargeFontSize}" Text="{Binding Model.币种}" mah:TextBoxHelper.Watermark="请输入币种"/>
+
+                <TextBlock FontSize="{StaticResource LargeFontSize}" Text="钱包地址"/>
+                <TextBox   FontSize="{StaticResource LargeFontSize}" Text="{Binding Model.钱包地址}" mah:TextBoxHelper.Watermark="请输入钱包地址"/>
+                <Button x:Name="AddBtn"   Content="{Binding 操作模式}"  FontSize="{StaticResource LargeFontSize}"
+                                        Command="{Binding 添加命令}"
+                                         mah:ControlsHelper.FocusBorderThickness="0"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "APP_Window": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false,
+      "authenticationMode": "None"
+    }
+  }
+}

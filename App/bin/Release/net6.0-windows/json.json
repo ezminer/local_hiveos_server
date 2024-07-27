@@ -1,0 +1,143 @@
+{
+  "data": [
+    {
+      "币种": "eth",
+      "核心下载地址": [
+        {
+          "核心名字": "nbminer40.1",
+          "下载地址": "https://code.aliyun.com/easyos/ezminer3/raw/master/nbminer/nbminer_40.10.tar.gz"
+        },
+        {
+          "核心名字": "lolminer1.46a",
+          "下载地址": "https://code.aliyun.com/easyos/ezminer3/raw/master/lolminer/lolminer_1.46a.tar.gz"
+        },
+        {
+          "核心名字": "gminer2.74",
+          "下载地址": "https://code.aliyun.com/easyos/ezminer2/raw/master/gminer/gminer_2.74.tar.gz"
+        },
+        {
+          "核心名字": "phoenixminer5.9c",
+          "下载地址": "https://code.aliyun.com/easyos/ezminer2/raw/master/phoenixminer/phoenixminer_5.9cv.tar.gz"
+        }
+      ],
+      "矿池": [
+        {
+          "名字": "ethermine",
+          "代理": "stratum+tcp://asia2.ethermine.org:14444"
+        },
+        {
+          "名字": "fpmirror",
+          "代理": "stratum+ssl://hke.fpmirror.com:5555"
+        },
+        {
+          "名字": "独角兽ssl",
+          "代理": "stratum+ssl://eth.666pool.com:8559"
+        }
+      ]
+    },
+    {
+      "币种": "conflux",
+      "核心下载地址": [
+        {
+          "核心名字": "nbminer40.1",
+          "下载地址": "https://code.aliyun.com/easyos/ezminer3/raw/master/nbminer/nbminer_40.10.tar.gz"
+        },
+        {
+          "核心名字": "nbminer40.2",
+          "下载地址": "https://code.aliyun.com/easyos/ezminer3/raw/master/nbminer/nbminer_40.10.tar.gz"
+        },
+        {
+          "核心名字": "nbminer40.3",
+          "下载地址": "https://code.aliyun.com/easyos/ezminer3/raw/master/nbminer/nbminer_40.10.tar.gz"
+        },
+        {
+          "核心名字": "nbminer40.4",
+          "下载地址": "https://code.aliyun.com/easyos/ezminer3/raw/master/nbminer/nbminer_40.10.tar.gz"
+        },
+        {
+          "核心名字": "nbminer40.5",
+          "下载地址": "https://code.aliyun.com/easyos/ezminer3/raw/master/nbminer/nbminer_40.10.tar.gz"
+        },
+        {
+          "核心名字": "nbminer40.6",
+          "下载地址": "https://code.aliyun.com/easyos/ezminer3/raw/master/nbminer/nbminer_40.10.tar.gz"
+        }
+
+      ],
+      "矿池": [
+        {
+          "名字": "独角兽ssl",
+          "代理": "stratum+ssl://cfx.666pool.com:6656"
+        },
+        {
+          "名字": "独角兽ss2",
+          "代理": "stratum+ssl://cfx.666pool.com:6656"
+        },
+        {
+          "名字": "独角兽ss3",
+          "代理": "stratum+ssl://cfx.666pool.com:6656"
+        },
+        {
+          "名字": "独角兽ss4",
+          "代理": "stratum+ssl://cfx.666pool.com:6656"
+        },
+        {
+          "名字": "独角兽ss5",
+          "代理": "stratum+ssl://cfx.666pool.com:6656"
+        }
+      ]
+    },
+    {
+      "币种": "自定义",
+      "核心下载地址": [
+        {
+          "核心名字": "自定义.1",
+          "下载地址": "https://code.aliyun.com/easyos/ezminer3/raw/master/nbminer/nbminer_40.10.tar.gz"
+        },
+        {
+          "核心名字": "自定义.2",
+          "下载地址": "https://code.aliyun.com/easyos/ezminer3/raw/master/nbminer/nbminer_40.10.tar.gz"
+        },
+        {
+          "核心名字": "自定义.3",
+          "下载地址": "https://code.aliyun.com/easyos/ezminer3/raw/master/nbminer/nbminer_40.10.tar.gz"
+        },
+        {
+          "核心名字": "自定义.4",
+          "下载地址": "https://code.aliyun.com/easyos/ezminer3/raw/master/nbminer/nbminer_40.10.tar.gz"
+        },
+        {
+          "核心名字": "自定义.5",
+          "下载地址": "https://code.aliyun.com/easyos/ezminer3/raw/master/nbminer/nbminer_40.10.tar.gz"
+        },
+        {
+          "核心名字": "自定义.6",
+          "下载地址": "https://code.aliyun.com/easyos/ezminer3/raw/master/nbminer/nbminer_40.10.tar.gz"
+        }
+
+      ],
+      "矿池": [
+        {
+          "名字": "自定义ssl",
+          "代理": "stratum+ssl://cfx.666pool.com:6656"
+        },
+        {
+          "名字": "自定义ss2",
+          "代理": "stratum+ssl://cfx.666pool.com:6656"
+        },
+        {
+          "名字": "自定义ss3",
+          "代理": "stratum+ssl://cfx.666pool.com:6656"
+        },
+        {
+          "名字": "自定义ss4",
+          "代理": "stratum+ssl://cfx.666pool.com:6656"
+        },
+        {
+          "名字": "自定义ss5",
+          "代理": "stratum+ssl://cfx.666pool.com:6656"
+        }
+      ]
+    }
+  ]
+}

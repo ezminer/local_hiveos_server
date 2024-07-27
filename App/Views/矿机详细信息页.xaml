@@ -1,0 +1,392 @@
+﻿<Page
+    x:Class="MyApp.Views.矿机详细信息页"
+    Style="{DynamicResource MahApps.Styles.Page}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:properties="clr-namespace:MyApp.Properties"
+    xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" 
+    xmlns:chart="clr-namespace:WpfChart;assembly=WpfChart"
+    xmlns:viewmodels="clr-namespace:MyApp.ViewModels" 
+    d:DataContext="{d:DesignInstance Type=viewmodels:矿机详细信息ViewModel}"
+    mc:Ignorable="d"
+    xmlns:conv="clr-namespace:MyApp.Converters.KJListConvert"
+    d:DesignHeight="450" d:DesignWidth="800">
+    <Page.Resources>
+        <conv:状态颜色转换 x:Key="onlineColor"/>
+    </Page.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="48" />
+        </Grid.RowDefinitions>
+        <TextBlock
+            Style="{StaticResource PageTitleStyle}"
+            Margin="{StaticResource MediumLeftMargin}"
+            Text="{x:Static properties:Resources.矿机详细信息PageTitle}" />
+        <Button Content="返回" Style="{StaticResource Button.返回样式}"
+               Command="{Binding 导航到列表页命令}"/>
+        <Grid 
+            Grid.Row="1" x:Name="view"
+            Margin="{StaticResource MediumLeftRightMargin}"
+            Background="{DynamicResource MahApps.Brushes.Gray10}">
+            <ScrollViewer HorizontalScrollBarVisibility="Auto"
+                           
+                          
+                          IsDeferredScrollingEnabled="False"
+                          CanContentScroll="False">
+                <StackPanel ScrollViewer.CanContentScroll="True"  MouseWheel="ScrollViewer_PreviewMouseWheel">
+                    <TextBlock Margin="5" FontSize="{StaticResource LargeFontSize}">
+                     <Run Text="机器名称:      "/>
+                    <Run Text="{Binding Machine_info.主机名}" Foreground="{Binding Machine_info.状态, Converter={StaticResource onlineColor}}"/>
+                     <Run Text="      状态:"/>
+                    <Run    FontSize="{StaticResource LargeFontSize}" Foreground="{Binding Machine_info.状态, Converter={StaticResource onlineColor}}"
+                            Text="{Binding Machine_info.状态}"/>
+                     <Run Text="      总算力:"/>
+                    <Run  Text="{Binding Machine_info2.总算力 ,Mode=OneWay}" Foreground="Red"/>
+                     <Run Text="      总功耗:"/>
+                    <Run Text="{Binding Machine_info2.总功耗 }" Foreground="Red"/>
+                    </TextBlock>
+                   
+                    <GroupBox Header="控制台"
+                          mah:HeaderedControlHelper.HeaderFontWeight="Bold" 
+                          mah:HeaderedControlHelper.HeaderFontSize="{StaticResource LargeFontSize}">
+
+                        <StackPanel Orientation="Horizontal" >
+                            <Button  Content="设置"      Width="200"  Command="{Binding 导航到设置页命令  }" Focusable="False" Margin="5 0"  FontSize="{StaticResource LargeFontSize}" BorderThickness="0"  />
+                            <Button  Content="重启核心"  Width="200" CommandParameter="1" Command="{Binding 矿机命令 }" Focusable="False" Margin="5 0"  FontSize="{StaticResource LargeFontSize}" BorderThickness="0"  />
+                            <Button  Content="重启矿机"  Width="200" CommandParameter="0" Command="{Binding 矿机命令 }" Focusable="False" Margin="5 0"  FontSize="{StaticResource LargeFontSize}" BorderThickness="0"  />
+                            <Button  Content="暂停矿机"  Width="200" CommandParameter="3" Command="{Binding 矿机命令 }" Focusable="False" Margin="5 0"  FontSize="{StaticResource LargeFontSize}" BorderThickness="0"  />
+                            <Button  Content="关闭矿机"  Width="200" CommandParameter="8" Command="{Binding 矿机命令 }" Focusable="False" Margin="5 0"  FontSize="{StaticResource LargeFontSize}" BorderThickness="0"  />
+                          
+                            <Button  Visibility="Collapsed" Content="切换系统"  Width="200" CommandParameter="2" Command="{Binding 矿机命令 }" Focusable="False" Margin="5 0"  FontSize="{StaticResource LargeFontSize}" BorderThickness="0"  />
+                        </StackPanel>
+                       
+                    </GroupBox>
+
+                    <GroupBox Header="功耗信息" Focusable="False" 
+                          mah:HeaderedControlHelper.HeaderFontWeight="Bold" 
+                              MinHeight="200"
+                          mah:HeaderedControlHelper.HeaderFontSize="{StaticResource LargeFontSize}">
+                        <!--<DataGrid ItemsSource="{Binding Machine_info2.显卡信息}"  SelectionMode="Extended"
+                                  IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False"
+                                  AutoGenerateColumns="False"  PreviewMouseWheel="DataGrid_PreviewMouseWheel"
+                                  MinHeight="100" CanUserResizeColumns="True"
+                                 >
+                            <DataGrid.Columns>
+                              
+
+                                <DataGridTextColumn Width="auto" MinWidth="100" Header="实时功耗" Binding="{Binding 实时功耗}"/>
+                                <DataGridTextColumn Width="auto" MinWidth="100" Header="算力" Binding="{Binding 算力}"/>
+                                <DataGridTextColumn Width="auto" MinWidth="100" Header="显卡温度" Binding="{Binding 显卡温度 }"/>
+                                <DataGridTextColumn Width="auto" MinWidth="100" Header="显存温度" Binding="{Binding 显存温度}"/>
+                                <DataGridTextColumn Width="auto" MinWidth="100" Header="风扇" Binding="{Binding 风扇}"/>
+                                <DataGridTextColumn Width="auto" MinWidth="100" Header="单卡拒绝" Binding="{Binding 单卡拒绝}"/>
+                                <DataGridTextColumn Width="auto" MinWidth="100" Header="显卡型号" Binding="{Binding 显卡型号}"/>
+                                <DataGridTextColumn Width="auto" MinWidth="100" Header="品牌" Binding="{Binding 品牌}"/>
+                                <DataGridTextColumn Width="auto" MinWidth="100" Header="显存大小" Binding="{Binding 显存大小}"/>
+                                <DataGridTextColumn Width="auto" MinWidth="100" Header="颗粒" Binding="{Binding 颗粒}"/>
+                                <DataGridTextColumn Width="auto" MinWidth="100" Header="最小功耗" Binding="{Binding 最小功耗}"/>
+                                <DataGridTextColumn  MinWidth="100"  Header="默认功耗" Binding="{Binding 默认功耗}"  Width="*"/>
+                            </DataGrid.Columns>
+                        </DataGrid>-->
+
+                        <Border>
+                            <ScrollViewer CanContentScroll="True" Width="{Binding 
+                            RelativeSource={RelativeSource Mode=FindAncestor,
+                            AncestorType=Border},Path=ActualWidth}"                
+                                      HorizontalScrollBarVisibility="Visible">
+                            
+                        <ListView ItemsSource="{Binding Machine_info2.显卡信息}"
+                                  SelectionMode="Single"
+                                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                                  >
+                            <ListView.View>
+                                <GridView >
+                                    <GridView.Columns >
+
+
+                                        <GridViewColumn   Header="实时功耗" DisplayMemberBinding="{Binding 实时功耗}"/>
+                                        <GridViewColumn   Header="算力" DisplayMemberBinding="{Binding 算力}"/>
+                                        <GridViewColumn   Header="显卡温度" DisplayMemberBinding="{Binding 显卡温度 }"/>
+                                        <GridViewColumn   Header="显存温度" DisplayMemberBinding="{Binding 显存温度}"/>
+                                        <GridViewColumn   Header="风扇" DisplayMemberBinding="{Binding 风扇}"/>
+                                        <GridViewColumn   Header="显卡型号" DisplayMemberBinding="{Binding 显卡型号}"/>
+                                        <GridViewColumn   Header="品牌" DisplayMemberBinding="{Binding 品牌}"/>
+                                        <GridViewColumn   Header="显存大小" DisplayMemberBinding="{Binding 显存大小}"/>
+                                        <GridViewColumn   Header="颗粒" DisplayMemberBinding="{Binding 颗粒}"/>
+                                        <GridViewColumn   Header="最小功耗" DisplayMemberBinding="{Binding 最小功耗}"/>
+                                        <GridViewColumn   Header="默认功耗" DisplayMemberBinding="{Binding 默认功耗}" />
+
+                                    </GridView.Columns>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                       
+                            
+                         </ScrollViewer>
+                        </Border>
+
+
+
+
+
+                    </GroupBox>
+
+                   
+
+                        <GroupBox Header="挖矿核心信息" 
+                          mah:HeaderedControlHelper.HeaderFontWeight="Bold" 
+                          mah:HeaderedControlHelper.HeaderFontSize="{StaticResource LargeFontSize}">
+
+                        <StackPanel>
+
+                            <Grid >
+                            <Grid.Resources>
+                                <Style TargetType="Label" BasedOn="{StaticResource MahApps.Styles.Label}">
+                                    <Setter Property="BorderThickness" Value="1"/>
+                                    <Setter Property="BorderBrush" Value="gray"/>
+                                    <Setter Property="FontSize" Value="{StaticResource LargeFontSize}"/>
+                                </Style>
+                                </Grid.Resources>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition />
+                                    <RowDefinition/>
+                                    <RowDefinition />
+                                    <RowDefinition/>
+                                    <RowDefinition />
+                                    <RowDefinition/>
+                                    <RowDefinition />
+                                    <RowDefinition/>
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+
+                            <Label  Grid.Column="0" Grid.Row="1" Content="挖矿时长             "/>
+                            <Label  Grid.Column="1" Grid.Row="1" Content="{Binding Machine_info2.挖矿时长}"/>
+                            <Label  Grid.Column="2" Grid.Row="1" Content="挖矿模板             "/>
+                            <Label  Grid.Column="3" Grid.Row="1" Content="{Binding Machine_info2.挖矿模板}"/>
+                            <Label  Grid.Column="0" Grid.Row="2" Content="币种"/>
+                            <Label  Grid.Column="1" Grid.Row="2" Content="{Binding Machine_info2.币种}"/>
+                            <Label  Grid.Column="2" Grid.Row="2" Content="延迟"/>
+                            <Label  Grid.Column="3" Grid.Row="2" Content="{Binding Machine_info2.延迟}"/>
+                            <Label  Grid.Column="0" Grid.Row="3" Content="核心版本"/>
+                            <Label  Grid.Column="1" Grid.Row="3" Content="{Binding Machine_info2.核心版本}"/>
+                            <Label  Grid.Column="2" Grid.Row="3" Content="有效率"/>
+                            <Label  Grid.Column="3" Grid.Row="3" Content="{Binding Machine_info2.有效率}"/>
+                             <Label   Grid.Column="0" Grid.Row="4" Content="矿池"/>
+                             <Label   Grid.Column="1" Grid.Row="4"  Content="{Binding Mining.PoolAddr}"/>
+                             <Label   Grid.Column="2" Grid.Row="4"   Content="钱包"/>
+                             <Label   Grid.Column="3" Grid.Row="4"  Content="{Binding Mining.WalletAddr}"/>
+
+
+                                <!--<Label Content="有效" Grid.ColumnSpan="2"/>-->
+                            <!--<Label Content="{Binding 有效}"/>
+                            <Label Content="无效"/>
+                            <Label Content="{Binding 无效}"/>
+                            <Label Content="拒绝"/>
+                            <Label Content="{Binding 拒绝}"/>
+                            <Label Content="单卡拒绝"/>
+                            <Label Content="{Binding 单卡拒绝}"/>-->
+
+                        </Grid>
+                            <Grid  >
+                                <Grid.Resources>
+                                <Style TargetType="Label" BasedOn="{StaticResource MahApps.Styles.Label}">
+                                    <Setter Property="BorderThickness" Value="1"/>
+                                    <Setter Property="BorderBrush" Value="gray"/>
+                                    <Setter Property="FontSize" Value="{StaticResource LargeFontSize}"/>
+                                </Style>
+                            </Grid.Resources>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="3*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+                            
+                          
+   
+                            </Grid>
+
+                        </StackPanel>
+
+                    </GroupBox>
+                    <GroupBox Header="挖矿信息" Focusable="False"
+                          mah:HeaderedControlHelper.HeaderFontWeight="Bold" 
+                          mah:HeaderedControlHelper.HeaderFontSize="{StaticResource LargeFontSize}">
+
+                        <ListBox  PreviewMouseWheel="DataGrid_PreviewMouseWheel">
+                            <!--#region 样式 -->
+                            <ListBox.ItemContainerStyle>
+                                <Style BasedOn="{StaticResource MahApps.Styles.ListBoxItem}" TargetType="ListBoxItem">
+                                    <!--鼠标覆盖背景-->
+                                    <Setter Property="mah:ItemHelper.HoverBackgroundBrush" Value="Transparent"/>
+                                    <Setter Property="mah:ItemHelper.HoverForegroundBrush" Value="red"/>
+                                    <!--鼠标选中覆盖背景-->
+                                    <Setter Property="mah:ItemHelper.HoverSelectedBackgroundBrush" Value="Transparent"/>
+                                    <Setter Property="mah:ItemHelper.HoverSelectedForegroundBrush" Value="red"/>
+
+
+                                    <!--鼠标选中背景-->
+                                    <Setter Property="mah:ItemHelper.SelectedBackgroundBrush" Value="Transparent"/>
+                                    <Setter Property="mah:ItemHelper.SelectedForegroundBrush" Value="Black"/>
+
+
+                                    <!--选中后离开-->
+                                    <Setter Property="mah:ItemHelper.ActiveSelectionBackgroundBrush" Value="Transparent"/>
+                                    <Setter Property="mah:ItemHelper.ActiveSelectionForegroundBrush" Value="red"/>
+                                </Style>
+                            </ListBox.ItemContainerStyle>
+                            <!--#endregion-->
+                            <ListBoxItem>
+                                <Grid  >
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition />
+                                        <RowDefinition/>
+                                        <RowDefinition />
+                                        <RowDefinition/>
+                                        <RowDefinition />
+                                        <RowDefinition/>
+                                        <RowDefinition />
+                                        <RowDefinition/>
+                                        <RowDefinition />
+                                    </Grid.RowDefinitions>
+                                    <Label Grid.Column="0" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="在线时长"/>
+                                    <Label Grid.Column="1" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="{Binding Machine_info2.在线时长,Mode=OneWay}"/>
+                                    <Label Grid.Column="2" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="内网IP"/>
+                                    <Label Grid.Column="3" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="{Binding Machine_info2.内网IP}"/>
+                                    <Label Grid.Column="0" Grid.Row="1"  FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="内核版本"/>
+                                    <Label Grid.Column="1" Grid.Row="1"  FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="{Binding Machine_info2.内核版本}"/>
+                                    <Label Grid.Column="2" Grid.Row="1" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="固件版本"/>
+                                    <Label Grid.Column="3" Grid.Row="1" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="{Binding Machine_info2.固件版本}"/>
+
+
+                                    <Label Grid.Column="0" Grid.Row="2" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="A卡驱动"/>
+                                    <Label Grid.Column="1" Grid.Row="2" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="{Binding Machine_info2.A卡驱动}"/>
+                                    <Label Grid.Column="2" Grid.Row="2" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="N卡驱动"/>
+                                    <Label Grid.Column="3" Grid.Row="2" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="{Binding Machine_info2.N卡驱动}"/>
+
+                                    <Label Grid.Column="0" Grid.Row="3" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="cpu型号"/>
+                                    <Label Grid.Column="1" Grid.Row="3" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="{Binding Machine_info2.cpu型号}"/>
+                                    <Label Grid.Column="2" Grid.Row="3" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="CPU核心数"/>
+                                    <Label Grid.Column="3" Grid.Row="3" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="{Binding Machine_info2.CPU核心数}"/>
+
+
+
+                                    <Label Grid.Column="0" Grid.Row="4" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="主板厂家"/>
+                                    <Label Grid.Column="1" Grid.Row="4" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="{Binding Machine_info2.主板厂家}"/>
+                                    <Label Grid.Column="2" Grid.Row="4" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="主板型号"/>
+                                    <Label Grid.Column="3" Grid.Row="4" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="{Binding Machine_info2.主板型号}"/>
+
+                                    <Label Grid.Column="0" Grid.Row="5" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="本地磁盘"/>
+                                    <Label Grid.Column="1" Grid.Row="5" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="{Binding Machine_info2.本地磁盘}"/>
+                                    <Label Grid.Column="2" Grid.Row="5" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="Mac地址"/>
+                                    <Label Grid.Column="3" Grid.Row="5" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="{Binding Machine_info2.Mac地址}"/>
+
+                                    <Label Grid.Column="2" Grid.Row="6"  FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="内存大小"/>
+                                    <Label Grid.Column="3" Grid.Row="6" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="{Binding Machine_info2.内存大小}"/>
+                                    <Label Grid.Column="0" Grid.Row="6" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="可用内存"/>
+                                    <Label Grid.Column="1" Grid.Row="6" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="{Binding Machine_info2.可用内存}"/>
+
+                                    <Label Grid.Column="0" Grid.Row="7" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="cpu使用率[温度]"/>
+                                    <Label Grid.Column="1" Grid.Row="7" Grid.ColumnSpan="4" FontSize="{StaticResource LargeFontSize}"  BorderBrush="Gray" BorderThickness="1" Content="{Binding Machine_info2.cpu使用率}"/>
+
+
+                                </Grid>
+                            </ListBoxItem>
+                            
+
+                         
+
+                        </ListBox>
+
+
+                    </GroupBox>
+
+
+                    <GroupBox Header="历史曲线"    ScrollViewer.CanContentScroll="True"
+                          mah:HeaderedControlHelper.HeaderFontWeight="Bold" 
+                             
+                          mah:HeaderedControlHelper.HeaderFontSize="{StaticResource LargeFontSize}">
+
+                        <StackPanel>
+                            <Button  Content="加载历史曲线"  Width="200"
+                                       HorizontalAlignment="Left"
+                                     CommandParameter="8" Tag="{Binding Machine_info2.rig_id}" Click="Button_Click"
+                                     Focusable="False" Margin="5 0"  FontSize="{StaticResource LargeFontSize}" BorderThickness="0"  />
+
+
+                            <chart:ChartControl x:Name="chart" 
+                                                      MouseWheel="ScrollViewer_PreviewMouseWheel"
+                                                    />
+
+                        </StackPanel>
+
+
+                    </GroupBox>
+
+                    <GroupBox Header="矿机调试"
+                    mah:HeaderedControlHelper.HeaderFontWeight="Bold" 
+                          mah:HeaderedControlHelper.HeaderFontSize="{StaticResource LargeFontSize}">
+                      
+                        <Grid >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <UniformGrid Columns="4">
+                                <Button Content="提取Log" Command="{Binding 提取log命令}"  Focusable="True" mah:ControlsHelper.CornerRadius="0" mah:ControlsHelper.FocusBorderThickness="1"  FontSize="{StaticResource LargeFontSize}"  BorderThickness="1"  BorderBrush="Gray" Height="40"  />
+                                <Button Content="刷新Log"  Command="{Binding 刷新命令}" IsEnabled="True" Focusable="False" mah:ControlsHelper.CornerRadius="0" mah:ControlsHelper.FocusBorderThickness="1"  FontSize="{StaticResource LargeFontSize}"  BorderThickness="1"  BorderBrush="Gray" Height="40" />
+                                <Button Content="删除Log"   Command="{Binding 清除log命令}" IsEnabled="True" Focusable="False" mah:ControlsHelper.CornerRadius="0" mah:ControlsHelper.FocusBorderThickness="1"  FontSize="{StaticResource LargeFontSize}"  BorderThickness="1"  BorderBrush="Gray" Height="40" />
+                                <Button Content="自定义命令"   Command="{Binding 自定义命令}" IsEnabled="True" Focusable="False" mah:ControlsHelper.CornerRadius="0" mah:ControlsHelper.FocusBorderThickness="1"  FontSize="{StaticResource LargeFontSize}"  BorderThickness="1"  BorderBrush="Gray" Height="40" />
+                            </UniformGrid>
+                            <DataGrid ItemsSource="{Binding TaskDones}" Grid.Row="1" 
+                                      CanUserAddRows="False" CanUserDeleteRows="False"
+                                      AutoGenerateColumns="False" MinHeight="80"
+                                      ScrollViewer.CanContentScroll="True"
+                                      PreviewMouseWheel="DataGrid_PreviewMouseWheel"
+                                     ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                                      IsReadOnly="True">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn MinWidth="100" Header="log时间" Binding="{Binding Addtime}"/>
+
+                                    <DataGridTextColumn  MinWidth="100" Header="命令内容" Binding="{Binding Data }"/>
+                                    <DataGridTextColumn Header="返回数据"   Width="auto" Binding="{Binding Payload }"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                           
+                        </Grid>
+                    </GroupBox>
+                
+
+                </StackPanel>
+            </ScrollViewer>
+         
+            
+        </Grid>
+        <TextBlock   FontSize="{StaticResource LargeFontSize}"   TextAlignment="Center"
+                                     Margin="{StaticResource MediumLeftRightMargin}" Grid.Row="2"  Background="{DynamicResource MahApps.Brushes.Gray10}"
+                                    Text="{Binding 刷新时间}"/>
+    </Grid>
+</Page>

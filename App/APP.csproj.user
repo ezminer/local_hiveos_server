@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Controls\基本消息.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\状态信息.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DialogView\CustomCMDDialogView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\矿机列表页.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\模板列表\钱包模板列表页.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Controls\基本消息.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\状态信息.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DialogView\CustomCMDDialogView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\矿机列表页.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\模板列表\超频模板列表页.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\模板列表\钱包模板列表页.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

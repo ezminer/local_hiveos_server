@@ -1,0 +1,10 @@
+﻿#### nvidia-oc.conf
+CLOCK="_clock_"
+MEM="_mem_"
+FAN="_nfan_"
+PLIMIT="_plimit_"
+LOGO_BRIGHTNESS=_logo_brightness_
+OHGODAPILL_ENABLED=_ohgodapill_enabled_
+OHGODAPILL_START_TIMEOUT=_ohgodapill_start_timeout_
+OHGODAPILL_ARGS="_ohgodapill_args_"
+RUNNING_DELAY=_running_delay_

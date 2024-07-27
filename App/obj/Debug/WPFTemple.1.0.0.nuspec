@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WPFTemple</id>
+    <version>1.0.0</version>
+    <authors>WPFTemple</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0-windows7.0">
+        <dependency id="DB" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="WebAPI" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="WPFTemple.Core" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="EntityFramework" version="6.4.4" exclude="Build,Analyzers" />
+        <dependency id="MahApps.Metro" version="2.4.6" exclude="Build,Analyzers" />
+        <dependency id="MahApps.Metro.IconPacks" version="4.11.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Hosting" version="3.1.16" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Toolkit.Mvvm" version="7.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Toolkit.Uwp.Notifications" version="7.1.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\BaiduNetdiskWorkspace\Project\C#project\WEBMVC\WPFTemple\bin\Debug\net5.0-windows\WPFTemple.runtimeconfig.json" target="lib\net5.0-windows7.0\WPFTemple.runtimeconfig.json" />
+    <file src="D:\BaiduNetdiskWorkspace\Project\C#project\WEBMVC\WPFTemple\bin\Debug\net5.0-windows\WPFTemple.dll" target="lib\net5.0-windows7.0\WPFTemple.dll" />
+  </files>
+</package>

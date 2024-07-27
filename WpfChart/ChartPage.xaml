@@ -1,0 +1,20 @@
+﻿<Page x:Class="WpfChart.ChartPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfChart"
+        mc:Ignorable="d"
+     
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <CheckBox Content="锁定水平方向缩放" Checked="HCheckBox_Checked" Unchecked="HCheckBox_Unchecked"/>
+            <CheckBox Content="锁定垂直方向缩放" Checked="VCheckBox_Checked" Unchecked="VCheckBox_Unchecked"/>
+        
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Center" FontSize="20" x:Name="Textlabel"></TextBlock>
+        <WpfPlot Name="WpfPlot1" MouseMove="WpfPlot1_MouseMove" Margin="0,80" />
+      
+    </Grid>
+</Page>

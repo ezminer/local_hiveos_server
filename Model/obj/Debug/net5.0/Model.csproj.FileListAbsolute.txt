@@ -1,0 +1,180 @@
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\bin\Debug\net5.0\Configtemplate\amd-oc.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\bin\Debug\net5.0\Configtemplate\autofan.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\bin\Debug\net5.0\Configtemplate\nvidia-oc.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\bin\Debug\net5.0\Configtemplate\rig.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\bin\Debug\net5.0\Configtemplate\wallet.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\bin\Debug\net5.0\Model.deps.json
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\bin\Debug\net5.0\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\bin\Debug\net5.0\Model.pdb
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\obj\Debug\net5.0\Model.csproj.AssemblyReference.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\obj\Debug\net5.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\obj\Debug\net5.0\Model.AssemblyInfoInputs.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\obj\Debug\net5.0\Model.AssemblyInfo.cs
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\obj\Debug\net5.0\Model.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\obj\Debug\net5.0\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\obj\Debug\net5.0\refint\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\obj\Debug\net5.0\Model.pdb
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\obj\Debug\net5.0\ref\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst\Model\bin\Debug\net5.0\MyDB.db
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\bin\Debug\net5.0\Configtemplate\amd-oc.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\bin\Debug\net5.0\Configtemplate\autofan.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\bin\Debug\net5.0\Configtemplate\nvidia-oc.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\bin\Debug\net5.0\Configtemplate\rig.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\bin\Debug\net5.0\Configtemplate\wallet.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\bin\Debug\net5.0\MyDB.db
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\bin\Debug\net5.0\Model.deps.json
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\bin\Debug\net5.0\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\bin\Debug\net5.0\Model.pdb
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\obj\Debug\net5.0\Model.csproj.AssemblyReference.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\obj\Debug\net5.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\obj\Debug\net5.0\Model.AssemblyInfoInputs.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\obj\Debug\net5.0\Model.AssemblyInfo.cs
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\obj\Debug\net5.0\Model.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\obj\Debug\net5.0\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\obj\Debug\net5.0\refint\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\obj\Debug\net5.0\Model.pdb
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月16日232337\Model\obj\Debug\net5.0\ref\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\bin\Debug\net5.0\Configtemplate\amd-oc.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\bin\Debug\net5.0\Configtemplate\autofan.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\bin\Debug\net5.0\Configtemplate\nvidia-oc.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\bin\Debug\net5.0\Configtemplate\rig.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\bin\Debug\net5.0\Configtemplate\wallet.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\bin\Debug\net5.0\MyDB.db
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\bin\Debug\net5.0\Model.deps.json
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\bin\Debug\net5.0\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\bin\Debug\net5.0\Model.pdb
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\obj\Debug\net5.0\Model.csproj.AssemblyReference.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\obj\Debug\net5.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\obj\Debug\net5.0\Model.AssemblyInfoInputs.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\obj\Debug\net5.0\Model.AssemblyInfo.cs
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\obj\Debug\net5.0\Model.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\obj\Debug\net5.0\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\obj\Debug\net5.0\refint\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\obj\Debug\net5.0\Model.pdb
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日\Model\obj\Debug\net5.0\ref\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\bin\Debug\net5.0\Configtemplate\amd-oc.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\bin\Debug\net5.0\Configtemplate\autofan.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\bin\Debug\net5.0\Configtemplate\nvidia-oc.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\bin\Debug\net5.0\Configtemplate\rig.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\bin\Debug\net5.0\Configtemplate\wallet.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\bin\Debug\net5.0\MyDB.db
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\bin\Debug\net5.0\Model.deps.json
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\bin\Debug\net5.0\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\bin\Debug\net5.0\Model.pdb
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\obj\Debug\net5.0\Model.csproj.AssemblyReference.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\obj\Debug\net5.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\obj\Debug\net5.0\Model.AssemblyInfoInputs.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\obj\Debug\net5.0\Model.AssemblyInfo.cs
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\obj\Debug\net5.0\Model.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\obj\Debug\net5.0\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\obj\Debug\net5.0\refint\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\obj\Debug\net5.0\Model.pdb
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月17日 - 副本\Model\obj\Debug\net5.0\ref\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\bin\Debug\net5.0\Configtemplate\amd-oc.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\bin\Debug\net5.0\Configtemplate\autofan.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\bin\Debug\net5.0\Configtemplate\nvidia-oc.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\bin\Debug\net5.0\Configtemplate\rig.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\bin\Debug\net5.0\Configtemplate\wallet.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\bin\Debug\net5.0\MyDB.db
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\bin\Debug\net5.0\Model.deps.json
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\bin\Debug\net5.0\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\bin\Debug\net5.0\Model.pdb
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\obj\Debug\net5.0\Model.csproj.AssemblyReference.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\obj\Debug\net5.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\obj\Debug\net5.0\Model.AssemblyInfoInputs.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\obj\Debug\net5.0\Model.AssemblyInfo.cs
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\obj\Debug\net5.0\Model.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\obj\Debug\net5.0\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\obj\Debug\net5.0\refint\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\obj\Debug\net5.0\Model.pdb
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年3月26\Model\obj\Debug\net5.0\ref\Model.dll
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\bin\Debug\net5.0\Configtemplate\amd-oc.conf.txt
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\bin\Debug\net5.0\Configtemplate\autofan.conf.txt
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\bin\Debug\net5.0\Configtemplate\nvidia-oc.conf.txt
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\bin\Debug\net5.0\Configtemplate\rig.conf.txt
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\bin\Debug\net5.0\Configtemplate\wallet.conf.txt
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\bin\Debug\net5.0\MyDB.db
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\bin\Debug\net5.0\Model.deps.json
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\bin\Debug\net5.0\Model.dll
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\bin\Debug\net5.0\ref\Model.dll
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\bin\Debug\net5.0\Model.pdb
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\obj\Debug\net5.0\Model.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\obj\Debug\net5.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\obj\Debug\net5.0\Model.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\obj\Debug\net5.0\Model.AssemblyInfo.cs
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\obj\Debug\net5.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\obj\Debug\net5.0\Model.dll
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\obj\Debug\net5.0\ref\Model.dll
+C:\Users\admin\Desktop\WebAPI\WebFirst_2022年3月26\Model\obj\Debug\net5.0\Model.pdb
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\bin\Debug\net5.0\Configtemplate\amd-oc.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\bin\Debug\net5.0\Configtemplate\autofan.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\bin\Debug\net5.0\Configtemplate\nvidia-oc.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\bin\Debug\net5.0\Configtemplate\rig.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\bin\Debug\net5.0\Configtemplate\wallet.conf.txt
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\bin\Debug\net5.0\Model.deps.json
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\bin\Debug\net5.0\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\bin\Debug\net5.0\Model.pdb
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\obj\Debug\net5.0\Model.csproj.AssemblyReference.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\obj\Debug\net5.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\obj\Debug\net5.0\Model.AssemblyInfoInputs.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\obj\Debug\net5.0\Model.AssemblyInfo.cs
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\obj\Debug\net5.0\Model.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\obj\Debug\net5.0\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\obj\Debug\net5.0\refint\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\obj\Debug\net5.0\Model.pdb
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\obj\Debug\net5.0\ref\Model.dll
+D:\BaiduNetdiskWorkspace\Project\C#project\矿机系统\WebFirst_2022年4月15_修复版\Model\bin\Debug\net5.0\MyDB.db
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\Configtemplate\amd-oc.conf.txt
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\Configtemplate\autofan.conf.txt
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\Configtemplate\nvidia-oc.conf.txt
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\Configtemplate\rig.conf.txt
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\Configtemplate\wallet.conf.txt
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\Model.deps.json
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\Model.dll
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\Model.pdb
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\Model.csproj.AssemblyReference.cache
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\Model.AssemblyInfoInputs.cache
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\Model.AssemblyInfo.cs
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\Model.csproj.CoreCompileInputs.cache
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\Model.dll
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\refint\Model.dll
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\Model.pdb
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\ref\Model.dll
+D:\同步空间\项目\矿机系统\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\MyDB.db
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\MyDB.db
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\Configtemplate\amd-oc.conf.txt
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\Configtemplate\autofan.conf.txt
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\Configtemplate\nvidia-oc.conf.txt
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\Configtemplate\rig.conf.txt
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\Configtemplate\wallet.conf.txt
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\Model.deps.json
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\Model.dll
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\bin\Debug\net5.0\Model.pdb
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\Model.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\Model.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\Model.AssemblyInfo.cs
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\Model.dll
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\refint\Model.dll
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\Model.pdb
+C:\Users\admin\Desktop\WebFirst_2022年6月03_修复版\WebFirst_2022年5月12_修复版\Model\obj\Debug\net5.0\ref\Model.dll
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\bin\Debug\net5.0\MyDB.db
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\bin\Debug\net5.0\Configtemplate\amd-oc.conf.txt
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\bin\Debug\net5.0\Configtemplate\autofan.conf.txt
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\bin\Debug\net5.0\Configtemplate\nvidia-oc.conf.txt
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\bin\Debug\net5.0\Configtemplate\rig.conf.txt
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\bin\Debug\net5.0\Configtemplate\wallet.conf.txt
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\bin\Debug\net5.0\Model.deps.json
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\bin\Debug\net5.0\Model.dll
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\bin\Debug\net5.0\Model.pdb
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\obj\Debug\net5.0\Model.csproj.AssemblyReference.cache
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\obj\Debug\net5.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\obj\Debug\net5.0\Model.AssemblyInfoInputs.cache
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\obj\Debug\net5.0\Model.AssemblyInfo.cs
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\obj\Debug\net5.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\obj\Debug\net5.0\Model.dll
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\obj\Debug\net5.0\refint\Model.dll
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\obj\Debug\net5.0\Model.pdb
+C:\Users\PC001\Desktop\WebFirst_2022年6月5_修复版\Model\obj\Debug\net5.0\ref\Model.dll
